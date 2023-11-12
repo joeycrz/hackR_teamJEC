@@ -40,21 +40,24 @@ Agent: I completely understand your concerns, [Patient Name]. We'll do our best 
 
 Note: This is a fictional and generic script, and real-life interactions may vary. It's important to approach such situations with empathy and professionalism.
 """
-prompt = """In 30 words or less list all your answers, determine the reason for the call, determine the tone of the call between the caller and receiptient,
-Identify the relationship between the caller and receiptient (Patient, Care-Giver, Insurance Representative, Other Medical Office, Other), Determine whether there was an issue or complain raised by the caller?,
+prompt = """In 30 words or less, list all your answers, 
+Determine the reason for the call, 
+Determine the tone of the call between the caller and receiptient,
+Identify the relationship between the caller and receiptient (Patient, Care-Giver, Insurance Representative, Other Medical Office, Other),
+Determine whether there was an issue or complain raised by the caller?,
 Determine whether the call resulted in a successfully scheduled appointment? If not, what was the reason?.
 """
 audio = ""
 
-with open('C:/Users/19566/OneDrive - The University of Texas-Rio Grande Valley/Documents/Sound recordings/test1.txt', 'r') as file:
+with open('C:/HackR/hackR_teamJEC/audioTXTs/test1.txt', 'r') as file:
     # Read the content of the file
     file_content = file.read()
 
-with open('C:/Users/19566/OneDrive - The University of Texas-Rio Grande Valley/Documents/Sound recordings/test2.txt', 'r') as file:
+with open('C:/HackR/hackR_teamJEC/audioTXTs/test2.txt', 'r') as file:
     # Read the content of the file
     file_content2 = file.read()
     
-with open('C:/Users/19566/OneDrive - The University of Texas-Rio Grande Valley/Documents/Sound recordings/test3.txt', 'r') as file:
+with open('C:/HackR/hackR_teamJEC/audioTXTs/test3.txt', 'r') as file:
     # Read the content of the file
     file_content3 = file.read()
 

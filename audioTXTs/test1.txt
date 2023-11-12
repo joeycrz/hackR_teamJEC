@@ -1,0 +1,11 @@
+This is the UT Health Call Center, how may I help you?
+Hi, I'd like to schedule an appointment to see you, one of the doctors.
+Okay, what would you like to schedule an appointment for?
+Abdominal pain.
+Abdominal pain.
+Is this severe?
+Yes.
+Okay.
+If so, then I would advise you to call 911 and seek immediate attention.
+Okay, thank you.
+Bye.
