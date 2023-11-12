@@ -49,15 +49,15 @@ Determine whether the call resulted in a successfully scheduled appointment? If 
 """
 audio = ""
 
-with open('C:/HackR/hackR_teamJEC/audioTXTs/test1.txt', 'r') as file:
+with open('./audioTXTs/test1.txt', 'r') as file:
     # Read the content of the file
     file_content = file.read()
 
-with open('C:/HackR/hackR_teamJEC/audioTXTs/test2.txt', 'r') as file:
+with open('./audioTXTs/test2.txt', 'r') as file:
     # Read the content of the file
     file_content2 = file.read()
     
-with open('C:/HackR/hackR_teamJEC/audioTXTs/test3.txt', 'r') as file:
+with open('./audioTXTs/test3.txt', 'r') as file:
     # Read the content of the file
     file_content3 = file.read()
 
