@@ -66,7 +66,7 @@ with open('./audioTXTs/test3.txt', 'r') as file:
 
 model="gpt-3.5-turbo"
 
-messages=[{"role": "user", "content": prompt + file_content3}]
+messages=[{"role": "user", "content": prompt + file_content}]
 completion = openai.ChatCompletion.create(model=model, messages=messages)
 print(completion.choices[0].message.content)
 
